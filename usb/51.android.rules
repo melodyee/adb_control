@@ -1,0 +1,2 @@
+#Enable user access to all hover cameras
+SUBSYSTEM=="usb", ATTRS{idVendor}=="2cc0", MODE:="0666", TAG+="uaccess"

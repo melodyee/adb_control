@@ -1,0 +1,11 @@
+# config for git.zerozero.cn=192.168.188.163
+Host git.zerozero.cn
+HostName git.zerozero.cn
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/gitkey
+
+# config for open adb
+Host 192.168.1.1
+HostName 192.168.1.1
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
